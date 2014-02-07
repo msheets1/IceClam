@@ -1,0 +1,80 @@
+body {
+	margin: 0px;
+	background-color: #282233;
+	font-family: "Segoe UI";
+}
+
+header.main {
+	background-color: #efefff;
+	padding: 40px 18px;
+	padding-top: 27px;
+	padding-bottom: 140px; /*40px*/
+	padding-left: 18px;
+	transition: all 900ms ease-out;
+}
+header.main:hover {
+	background-color: #f9f9ff;
+}
+span.pageTitle {
+	padding-left: 60px;
+	font-size: 360%;
+	color: #dfdfef; /*fffdfd*/
+	font-family: "Segoe UI Light";
+}
+span.author {
+	padding-left: 75px;
+	font-size: 150%;
+	color: #e2e2ef;
+	font-family: "Segoe UI Light";
+}
+section.main {
+	padding: 45px 18px;
+}
+section.coldBlue {
+	background-color: #e4e4ff;
+}
+section.cutePink {
+	background-color: #ffcdc6;
+}
+section.deepBlue {
+	background-color: #191e36;
+}
+
+a.circle {
+	border-radius: 60px;
+	padding: 8px 14px;
+	transition: all 400ms ease-out;
+	cursor: pointer;
+	-webkit-user-select: none;	
+	-ms-user-select: none;	
+	-moz-user-select: none;	
+	user-select: none;	
+	color: #49494f;
+}
+a.circle:hover {
+}
+a.circle:active {
+	transition: all 140ms ease-in;
+}
+
+a.circle.coldBlue {
+	background-color: #f9f9ff;
+	color: #dfdfef;
+}
+a.circle.coldBlue:hover {
+	background-color: #efefff;
+}
+a.circle.coldBlue:active {
+	background-color: #eaeaff;
+}
+
+a.circle.deepBlue {
+	background-color: #191e36;
+	color: #6f6f7f;
+}
+a.circle.deepBlue:hover {
+	background-color: #393e56;
+}
+a.circle.deepBlue:active {
+	background-color: #595e76;
+}
